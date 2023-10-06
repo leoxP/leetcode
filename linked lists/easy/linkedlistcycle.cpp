@@ -10,6 +10,7 @@ struct ListNode {
     ListNode(int x, ListNode *next) : val(x), next(next) {}
  };
  
+// O(n) time and space complexity
 class Solution {
 public:
     bool hasCycle(ListNode *head) {
@@ -25,7 +26,7 @@ public:
     }
 };
 
-//Using slow and fast pointers:
+//Using slow and fast pointers: (Space optimization)
 class Solution {
 public:
     bool hasCycle(ListNode *head) {
