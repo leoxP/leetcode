@@ -20,3 +20,6 @@ public:
         return solver(v,s,k,n);
     }
 };
+
+//TC=O(n*k)
+//SC=O(n)
